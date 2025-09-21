@@ -39,7 +39,7 @@
     * `src/main/resources/application.properties` 파일을 열어 MySQL 사용자 이름과 비밀번호를 환경에 맞게 수정합니다.
         ```properties
         spring.datasource.username=root
-        spring.datasource.password=root1234
+        spring.datasource.password=root
         spring.datasource.url=jdbc:mysql://localhost:3306/instagram
         ```
     * JPA 설정에 따라 애플리케이션 실행 시 테이블이 자동 생성되도록 설정되어 있습니다 (`spring.jpa.hibernate.ddl-auto=none`).
